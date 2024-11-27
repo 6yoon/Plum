@@ -9,6 +9,9 @@
     <link rel="stylesheet" type="text/css" href="css/drawer.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link rel="stylesheet" type="text/css" href="css/menu.css" />
+    <link rel="stylesheet" type="text/css" href="css/playlist.css" />
+    <link rel="stylesheet" type="text/css" href="css/like.css" />
+    <link rel="stylesheet" type="text/css" href="css/artist.css" />
     <script src="${pageContext.request.contextPath}/js/drawerToggle.js" defer></script>
     <script src="${pageContext.request.contextPath}/js/toggleLogoutButton.js" defer></script>
 </head>
@@ -19,8 +22,9 @@
         <div class="content-wrapper">
             <div class="container">
         		<%@ include file="/page/library/menu.jsp" %>
-        		<%@ include file="/page/library/playlist.jsp" %>
-            	
+        		<%-- <%@ include file="/page/library/like.jsp" %> --%>
+        		<%-- <%@ include file="/page/library/like.jsp" %> --%>
+        		<%@ include file="/page/library/artist.jsp" %>
             </div>
         </div>
     </div>

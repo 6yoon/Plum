@@ -32,12 +32,12 @@
                     </div>
                 </div>   
                 <form action="logout" method="get" id="btn-menu">
-                    <button type="submit" class="menu-btn">Logout</button>
-                    <div class="menu-btn" onclick="location.href='mypage.jsp'">mypage</div>
+                    <button type="submit" class="header-menu-btn">Logout</button>
+                    <div class="header-menu-btn" onclick="location.href='mypage.jsp'">mypage</div>
                 </form>
             </div>
         <% } else { %>
-            <div class="menu-btn" onclick="location.href='login.jsp'">Login</div>
+            <div class="header-menu-btn" onclick="location.href='login.jsp'">Login</div>
         <% } %>
     </div>
 </div>

@@ -29,7 +29,7 @@
             <div class="left-drawer-btn">최근음악</div>
             <div class="left-drawer-btn">인기차트</div>
             <div class="left-drawer-menu-btn">라이브러리</div>
-            <div class="left-drawer-btn">재생목록</div>
+            <div class="left-drawer-btn" onclick="location.href='library.jsp'">재생목록</div>
             <div class="left-drawer-btn">좋아요 누른 음악</div>
             <div class="left-drawer-btn">내 아티스트</div>
         </div>

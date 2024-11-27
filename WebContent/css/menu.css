@@ -13,7 +13,7 @@
 
 .menu-box {
   display: flex;
-  width: 36%;
+  width: 32%;
   justify-content: space-around;
 }
 
@@ -23,6 +23,7 @@
   background-color: #1e1e1e;
   border-radius: 8px;
   text-decoration: none;
+  border: none;
 
   &:hover {
     background-color: #2e2e2e;
@@ -30,10 +31,4 @@
     color: #fff;
   }
   transition: 0.3s;
-}
-
-.highlighted {
-  color: #fff;
-  background-color: #2e2e2e;
-  font-weight: bold;
 }

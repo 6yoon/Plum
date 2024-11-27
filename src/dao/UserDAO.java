@@ -32,12 +32,14 @@ public class UserDAO {
             return "이미 존재하는 사용자명 또는 이메일입니다."; // 중복 시 메시지 반환
         }
 
-        String sql = "INSERT INTO Plum.users (username, email, password) VALUES (?, ?, ?, false)";
+        // isAdmin을 false로 하드코딩
+        String sql = "INSERT INTO Plum.users (username, email, password, isAdmin) VALUES (?, ?, ?, false)";
         try (Connection con = new JDBConnect().getConnection(); PreparedStatement psmt = con.prepareStatement(sql)) {
             psmt.setString(1, user.getUsername());
             psmt.setString(2, user.getEmail());
             psmt.setString(3, user.getPassword());
-            psmt.setBoolean(4, false); // isAdmin을 false로 설정
+            // psmt.setBoolean(4, false); // 이 줄은 삭제해야 합니다.
+            
             psmt.executeUpdate();
             System.out.println("회원가입 성공");
         } catch (Exception e) {
