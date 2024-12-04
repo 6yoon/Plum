@@ -13,5 +13,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/backend/MyWebSite/WebContent/WEB-INF/lib/spotify-web-api-java-8.4.1.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

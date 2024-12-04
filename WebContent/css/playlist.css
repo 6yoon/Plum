@@ -1,7 +1,7 @@
-.playlist-box {
+.contentbox {
+    width: 100%;
     display: flex;
     justify-content: center;
-    padding: 16px 0;
 }
 
 .playlist {
@@ -24,4 +24,22 @@
 .playlist-item .item-text{
     color: #999;
     font-size: 16px;
+}
+
+.add{
+	width: 100%;
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.add span{
+	background-color: #2e2e2e;
+	padding: 8px 16px;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 4px;
+	
 }

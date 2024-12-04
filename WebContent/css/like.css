@@ -1,4 +1,4 @@
-.like-box {
+.contentbox {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -63,7 +63,7 @@
 .overlap-item img {
   width: 264px;
   border-radius: 12px;
-  border: 1px solid #fff;
+  border: 1px solid #aeaeae;
 }
 
 .overlap-item:nth-child(1) {

@@ -44,9 +44,9 @@
 	
 	            <div class="Login-button-box">
 	                <button type="submit" class="login-button">로그인 하기</button>
-	                <div class="login-button">
-	                    <img src="${pageContext.request.contextPath}/img/spotify.png" alt="Icon" class="login-button-icon"/> <!-- 이미지 경로 수정 필요 -->
-	                </div>
+	                <a href="https://accounts.spotify.com/authorize?client_id=01e9cd5d987748cab58f0690b9583c79&response_type=code&redirect_uri=http://localhost:8080/MyWebSite/callback&scope=user-read-private user-read-email user-read-playback-state user-modify-playback-state streaming" class="login-button">
+	                    <img src="${pageContext.request.contextPath}/img/spotify.png" alt="Icon" class="login-button-icon"/>
+	                </a>
 	            </div>
             </div>
             <div class="go-signup">

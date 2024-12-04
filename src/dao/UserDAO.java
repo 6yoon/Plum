@@ -63,8 +63,8 @@ public class UserDAO {
                     user.setEmail(rs.getString("email"));
                     user.setPassword(rs.getString("password"));
                     user.setAdmin(rs.getBoolean("isAdmin"));
+                    System.out.println("로그인 성공");
                 }
-                System.out.println("로그인 성공");
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -72,4 +72,7 @@ public class UserDAO {
         }
         return user; // 로그인 성공 시 User 객체 반환, 실패 시 null 반환
     }
+
 }
+
+

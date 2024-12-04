@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
-<div class="like-box">
+<div class="contentbox">
         <div class="like-overlap">
             <div class="overlap-item-wrapper">
                 <div class="overlap-item-box">
